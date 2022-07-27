@@ -114,6 +114,9 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
     {%- if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x' }}" type="image/png">
     {%- endif -%}
+
+    <link rel="preload" href="<link rel="preload" href="https://cdn.shopify.com/s/files/1/1187/9416/t/5/assets/turbo.woff?v=15096657723668424478" as="font" type="font/woff" crossorigin>" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
 
     {% render 'social-meta-tags' %}
