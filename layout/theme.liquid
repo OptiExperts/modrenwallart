@@ -283,7 +283,7 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
 
     {% render 'microdata-schema' %}
   
-  {{ 'custom-css-shopify.css' | asset_url | stylesheet_tag }}
+  <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
   <meta name="google-site-verification" content="13tVd_AepEfGJ3tjP9ndb9Oc14aizmDbVcSsKD5y1G4" />
     
