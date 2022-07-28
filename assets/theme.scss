@@ -3543,10 +3543,7 @@ select::-ms-expand {
   z-index: 1;
 
   &::after {
-    -webkit-animation: lazyLoader 3s infinite;
-    animation: lazyLoader 3s infinite;
-    -webkit-animation-timing-function: cubic-bezier(.43, .43, .25, .99);
-    animation-timing-function: cubic-bezier(.43, .43, .25, .99);
+
   }
 }
 
