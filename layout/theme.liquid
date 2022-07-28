@@ -279,6 +279,8 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
     </script>
 
     {% render 'microdata-schema' %}
+    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
+  <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
   <meta name="google-site-verification" content="13tVd_AepEfGJ3tjP9ndb9Oc14aizmDbVcSsKD5y1G4" />
     
@@ -424,9 +426,7 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
       </main>
 
       {% section 'footer' %}
-  </div>
-      <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
+    </div>
 <script type="lazyload2" data-src="{{ 'expo-init.js' | asset_url }}" defer="defer"></script>
 {%- render '__footerhash' -%}
 </body>
