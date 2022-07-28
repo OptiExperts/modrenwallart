@@ -144,22 +144,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "1601357678340": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/web_banner_moon.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/web_mobile-moon.jpg",
-              "apply_overlay": false,
-              "content_position": "bottomRight",
-              "subheading": "",
-              "title": "",
-              "button_1_text": "SHOp Now",
-              "button_1_link": "shopify:\/\/products\/crescent-ramadan-eid-moon-tree-hilal",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
-          },
           "a2e31c90-6b73-4b98-920f-880fb544831e": {
             "type": "image",
             "settings": {
@@ -177,7 +161,6 @@
           }
         },
         "block_order": [
-          "1601357678340",
           "a2e31c90-6b73-4b98-920f-880fb544831e"
         ],
         "settings": {
@@ -544,14 +527,6 @@
         "settings": {
         }
       },
-      "160684036906793bd1": {
-        "type": "background-video",
-        "disabled": true,
-        "settings": {
-          "section_size": "large",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=Rpjhh-YPAxU&feature=youtu.be"
-        }
-      },
       "163535870792ad4929": {
         "type": "custom-html",
         "settings": {
@@ -596,7 +571,6 @@
       }
     },
     "content_for_index": [
-      "160684036906793bd1",
       "slideshow",
       "16584375788db6ba75",
       "16584379736941becd",
