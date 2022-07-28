@@ -557,7 +557,7 @@
         "settings": {
           "subheading": "",
           "title": "",
-          "html": "<picture>\n   <source media=\"(max-width: 650px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0417\/0452\/1881\/files\/logos-mobile.jpg?v=1635358966\">\n   <source media=\"(max-width: 465px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0417\/0452\/1881\/files\/logos-mobile.jpg?v=1635358966\">\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0417\/0452\/1881\/files\/seen-logos.jpg?v=1635358791\">\n<\/source><\/source><\/picture>"
+          "html": "<img class=\"lazy2\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0417\/0452\/1881\/files\/seen-logos.jpg?v=1635358791\">"
         }
       },
       "16584375788db6ba75": {
