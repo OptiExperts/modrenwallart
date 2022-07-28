@@ -1170,7 +1170,7 @@ $widescreen:       "screen and (min-width: 1500px)";
   transform: translateY(35px);
   left: 0;
   text-align: center;
-  transition: all 0.15s ease-in-out;
+   
 }
 
 .pswp__button[disabled] {
@@ -1906,7 +1906,7 @@ body {
     opacity: 1;
     visibility: visible;
     pointer-events: none;
-    transition: all 0.25s ease;
+     
   }
 }
 /**
@@ -1930,7 +1930,7 @@ body {
   font-weight: $heading-font-weight;
   font-style: $heading-font-style;
   background-color: transparent;
-  transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+ 
   z-index: 1;
   -webkit-tap-highlight-color: initial;
 
@@ -1952,7 +1952,7 @@ body {
   @if $show-button-transition {
     @media (-moz-touch-enabled: 0), (hover: hover) {
       &:not([disabled])::before {
-        transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
       }
 
       &:not([disabled]):hover::before {
@@ -2049,7 +2049,7 @@ body {
 .Button__PrimaryState,
 .Button__SecondaryState {
   display: block;
-  transition: transform 0.4s cubic-bezier(0.75, 0, 0.125, 1), opacity 0.4s cubic-bezier(0.75, 0, 0.125, 1);
+
 }
 
 .Button__SecondaryState {
@@ -2151,7 +2151,7 @@ body {
   vertical-align: middle;
   line-height: 0;
   transform: scale(1.001); /* Avoid rounding error during animation in Chrome */
-  transition: background 0.15s ease-in-out, opacity 0.15s ease-in-out, transform 0.2s ease-in-out, color 0.2s ease-in-out;
+
   overflow: hidden;
 
   &.is-active {
@@ -2208,7 +2208,7 @@ body {
 .RoundButton__PrimaryState,
 .RoundButton__SecondaryState {
   display: block;
-  transition: transform 0.4s cubic-bezier(0.75, 0, 0.125, 1), opacity 0.4s cubic-bezier(0.75, 0, 0.125, 1);
+
 }
 
 .RoundButton__SecondaryState {
@@ -2478,7 +2478,7 @@ body:not(.is-tabbing) .flickity-enabled:focus {
   cursor: pointer;
   background: transparent;
   border: 1px solid $border-color;
-  transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+
 
   /* This is used to increase the clickable area */
   &::before {
@@ -3064,7 +3064,7 @@ $drawer-header-height : 50px;
   background: rgba($background, 0);
   pointer-events: none;
   transform: translateY(3px);
-  transition: all 0.3s ease-in-out;
+   
 }
 
 .Form__Input:not(:placeholder-shown) ~ .Form__FloatingLabel,
@@ -3522,7 +3522,7 @@ select::-ms-expand {
   pointer-events: none;
   background-color: $border-color;
   z-index: -1;
-  transition: all 0.2s ease-in-out;
+
   overflow: hidden;
 }
 
@@ -3658,7 +3658,7 @@ select::-ms-expand {
   width: 100%;
   line-height: 1.5;
   text-align: left;
-  transition: all 0.2s ease-in-out;
+ 
 
   &:last-child {
     margin-bottom: 0 !important;
@@ -4626,7 +4626,7 @@ select::-ms-expand {
   border: 1px solid $border-color;
   outline: 1px solid transparent;
   outline-offset: -1px;
-  transition: all 0.2s ease-in-out;
+   
 
   svg {
     height: 18px;
@@ -5426,7 +5426,7 @@ select::-ms-expand {
   touch-action: manipulation;
   transform: translateY(100%);
   visibility: hidden;
-  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+   
 }
 
 .Popover--secondary {
@@ -7404,7 +7404,7 @@ select::-ms-expand {
     .ProductItem__PriceList--showOnHover {
       opacity: 0;
       transform: translateY(10px);
-      transition: all 0.35s ease-in-out;
+       
     }
 
     .ProductItem:hover .ProductItem__PriceList--showOnHover {
@@ -7810,7 +7810,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   top: 0;
   left: 0;
   color: $text-color-light;
-  transition: all 0.3s ease-in-out;
+   
 
   svg {
     width: 8px;
@@ -8386,7 +8386,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   background-color: $header-heading-color;
   box-shadow: 0 0 0 2px $header-background;
   transform: scale(0);
-  transition: all 0.3s ease-in-out;
+   
 }
 
 .Header__CartDot.is-visible {
@@ -8571,7 +8571,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   background: $header-background;
   border: 1px solid $header-border-color;
   border-top: none;
-  transition: all 0.3s ease-in-out;
+   
 
   &::before {
     content: '';
@@ -8665,7 +8665,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   text-align: left;
   background: $header-background;
   border-bottom: 1px solid $header-border-color;
-  transition: all 0.3s ease-in-out;
+   
 
   @supports (--css: variables) {
     max-height: calc(100vh - var(--header-height));
@@ -8957,7 +8957,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   visibility: hidden;
   transform: translateY(25px);
   opacity: 0;
-  transition: all 0.5s $drawer-transition-timing;
+   
 
   .Heading {
     color: inherit;
@@ -9439,7 +9439,7 @@ $vertical-spacing-two-products-per-row  : 0px;
     border-radius: 100%;
     border: 2px solid $border-color;
     background: transparent;
-    transition: all 0.2s ease-in-out;
+     
 
     &:not(:last-child) {
       margin-bottom: 12px;
@@ -9457,7 +9457,7 @@ $vertical-spacing-two-products-per-row  : 0px;
     position: relative;
     display: block;
     border: 1px solid transparent;
-    transition: all 0.2s ease-in-out;
+     
     cursor: pointer;
 
     &:not(:last-child) {
@@ -9770,7 +9770,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   white-space: nowrap;
   opacity: 0;
   box-shadow: 0 2px 10px rgba(#363636, 0.15);
-  transition: all 0.45s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+   
 
   &:active,
   &:focus {
@@ -10296,7 +10296,7 @@ $vertical-spacing-two-products-per-row  : 0px;
     max-width: 800px;
     opacity: 0;
     transform: translate(-50%, -50%);
-    transition: all 0.3s ease-in-out;
+     
     overflow: auto;
   }
 
@@ -10972,7 +10972,7 @@ $vertical-spacing-two-products-per-row  : 0px;
     background: $background;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.25s ease-in-out;
+     
   }
 
   .ShopTheLook.is-zoomed {
@@ -11664,7 +11664,7 @@ $vertical-spacing-two-products-per-row  : 0px;
   user-select: none;
   letter-spacing: inherit;
   vertical-align: text-bottom;
-  transition: all 0.25s ease-in-out;
+   
 
   &::after {
     position: absolute;
