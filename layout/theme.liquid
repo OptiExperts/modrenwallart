@@ -117,7 +117,7 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
 
     <link rel="preload" href="https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font" type="font/woff" crossorigin>
-    
+    <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}">
 
     {% render 'social-meta-tags' %}
 
@@ -190,7 +190,7 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
 <link rel="preload" href="https://fonts.shopifycdn.com/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2?h1=bW9kZXJud2FsbGFydHMuY29t&hmac=f46da6b6b3b965d0ca802fbef646e083e6e3430eaf953ddb75f579527b4b57c5" as="font" type="font/woff" crossorigin>
 
 
-    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
+    
 
     <script>
       // This allows to expose several variables to the global scope, to be used in scripts
@@ -279,7 +279,7 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
     </script>
 
     {% render 'microdata-schema' %}
-  
+    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
   <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
   <meta name="google-site-verification" content="13tVd_AepEfGJ3tjP9ndb9Oc14aizmDbVcSsKD5y1G4" />
