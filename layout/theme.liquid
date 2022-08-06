@@ -137,6 +137,8 @@
       <script  src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
 
+    <script  src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
+    <script  src="{{ 'libs.min.js' | asset_url }}" defer></script>
     <script  src="{{ 'theme.min.js' | asset_url }}" defer></script>
     <script  src="{{ 'custom.js' | asset_url }}" defer></script>
 
@@ -308,7 +310,5 @@
 </script><div class="yotpo yotpo-main-widget" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&amp;','%26'}}" data-description="{{ product.description | escape }}" data-price="{{ variant.price | money_without_currency }}" data-currency="{{ shop.currency }}"></div>
 
 {% include 'upsellio_embed' %}
-<script  src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
-<script  src="{{ 'libs.min.js' | asset_url }}" defer></script>
 </body>
 </html>
