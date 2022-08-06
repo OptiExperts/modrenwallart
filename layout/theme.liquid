@@ -238,8 +238,6 @@
   });
 </script>
     
-{% include 'bss-product-labels-configs' %}
-{% include 'upsellio' %}
   <meta name="google-site-verification" content="Bf9IXTTjJWmt4PaO-F6h5r11AkR2CV9TxAsgD1Wh1us" />
   <!-- GSSTART Coming Soon code start. Do not change -->
 <script > gsProductByVariant = {}; {% if product.id > 1 %}{% for variant in product.variants %} gsProductByVariant[{{variant.id}}] = {% if variant.available %} 1 {% else %} 0 {% endif %}; {% endfor %}{% endif %}  gsProductCSID = "{{ product.id }}"; gsDefaultV = "{{ product.selected_or_first_available_variant.id }}"; </script>
@@ -300,6 +298,8 @@
   </script>
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
-  /></noscript>
+/></noscript>
+{% include 'bss-product-labels-configs' %}
+{% include 'upsellio' %}
 </body>
 </html>
