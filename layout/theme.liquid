@@ -171,7 +171,8 @@
 <link rel="preload" href="https://fonts.shopifycdn.com/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2?h1=bW9kZXJud2FsbGFydHMuY29t&hmac=f46da6b6b3b965d0ca802fbef646e083e6e3430eaf953ddb75f579527b4b57c5" as="font" type="font/woff" crossorigin>
 
 <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
-    
+{% if template contains "index" %}<link rel="preload" as="image" href="https://cdn.shopify.com/s/files/1/0417/0452/1881/files/MWA-Slide_2000x.jpg?v=1658437379">{% endif %}
+
 
     <script>
       // This allows to expose several variables to the global scope, to be used in scripts
