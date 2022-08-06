@@ -38,7 +38,7 @@
 <html class="no-js" lang="{{ shop.locale }}">
   <head> 
 
-<script >
+<script defer>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -179,50 +179,15 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
   <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
   <meta name="google-site-verification" content="13tVd_AepEfGJ3tjP9ndb9Oc14aizmDbVcSsKD5y1G4" />
-    
-    <!-- Global site tag (gtag.js) - Google Ads: 580667323 -->
-<script async  src="https://www.googletagmanager.com/gtag/js?id=AW-580667323"></script>
-<script >
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-580667323');
-</script>
-
-    
-    <!-- Google Ads Remarketing Tag By FeedArmy Version 2.12 START -->
-<!-- FeedArmy tutorial found at https://feedarmy.com/adding-google-adwords-remarketing-tag-to-shopify/ -->
-
-<!-- CODE SETTINGS START -->
-<!-- CODE SETTINGS START -->
-
-<!-- Please add your Google Ads Audience Source Tag ID -->
+  
 {% assign fa_google_ads_audience_tag_id = 580667323 %}
 
-<!-- Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode -->
 {% assign fa_product_id_alpha2_code = 'US' %}
 
-<!-- if you have prices such as 1,000.00 set below to true, if you have prices such as 1.000,00 set below to false -->
 {% assign fa_prices_with_decimal_separator = true %}
 
-<!-- set your product id values are default, product_id, parent_id, sku-->
 {% assign fa_product_id = 'default' %}
 
-<!-- CODE SETTINGS END -->
-<!-- CODE SETTINGS END -->
-
-<!-- ------------------------------------ -->
-<!-- DO NOT EDIT ANYTHING BELOW THIS LINE -->
-<!-- Global site tag (gtag.js) - Ads. -->
-<script async  src="https://www.googletagmanager.com/gtag/js?id=AW-{{ fa_google_ads_audience_tag_id }}"></script>
-<script >
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-{{ fa_google_ads_audience_tag_id }}');
-</script>
-<!-- Global site tag (gtag.js) - Ads. -->
 {% if fa_prices_with_decimal_separator == true %}
 	{% if template contains 'product' %}
 		{% assign fa_product_price = product.price_min | money_without_currency | remove:',' %}
@@ -287,17 +252,13 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
 	{% endif %}
   });
 </script>
-<!-- Google Ads Remarketing Tag By FeedArmy Version 2.12 END -->
     
-  
-  
 {% include 'bss-product-labels-configs' %}
 {% include 'upsellio' %}
   <meta name="google-site-verification" content="Bf9IXTTjJWmt4PaO-F6h5r11AkR2CV9TxAsgD1Wh1us" />
   <!-- GSSTART Coming Soon code start. Do not change -->
 <script > gsProductByVariant = {}; {% if product.id > 1 %}{% for variant in product.variants %} gsProductByVariant[{{variant.id}}] = {% if variant.available %} 1 {% else %} 0 {% endif %}; {% endfor %}{% endif %}  gsProductCSID = "{{ product.id }}"; gsDefaultV = "{{ product.selected_or_first_available_variant.id }}"; </script>
-<script   src="https://gravity-software.com/js/shopify/pac_shop35214.js?v=ad7fb0945d63a6b7b8d1e287809ca30a"></script>
-<!-- Coming Soon code end. Do not change GSEND --></head>
+</head>
              
 
   <body class="prestige--v4 {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}">
@@ -323,7 +284,22 @@ src="https://www.facebook.com/tr?id=713799499455465&ev=PageView&noscript=1"
 
       {% section 'footer' %}
     </div>
+  <script async defer src="https://www.googletagmanager.com/gtag/js?id=AW-{{ fa_google_ads_audience_tag_id }}"></script>
+  <script defer>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-{{ fa_google_ads_audience_tag_id }}');
+  </script>
+  <script async defer src="https://www.googletagmanager.com/gtag/js?id=AW-580667323"></script>
+  <script defer>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'AW-580667323');
+  </script>
 <script  src="{{ 'expo-init.js' | asset_url }}" defer="defer"></script>
-
+<script  defer src="https://gravity-software.com/js/shopify/pac_shop35214.js?v=ad7fb0945d63a6b7b8d1e287809ca30a"></script>
 </body>
 </html>
