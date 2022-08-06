@@ -45,22 +45,6 @@
       {%- endif -%}
     {%- endcapture -%}
 
-    {%- comment -%}
-        <div class="yotpo bottomLine"
-    data-appkey="KemBAm5b1SeNZnXOc2qfkQG0SXJRLU4fGcZr6jUl"
-    data-domain="{{shop.permanent_domain | escape }}"
-    data-product-id="{{ product.id }}"
-    data-product-models="{{ product.id }}"
-    data-name="{{ product.title | escape }}"
-    data-url="{{ shop.url }}{{ product.url }}"
-    data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
-    data-description="{{ product.description | escape }}"
-    data-bread-crumbs="{% for tag in product.tags %}{{ tag | escape }};{% endfor %}">
-</div>
-    --------------------------------------------------------------------------------------------------------------------
-    PRODUCT GALLERY
-    --------------------------------------------------------------------------------------------------------------------
-    {%- endcomment -%}
 
     {%- assign initial_media_id = product.featured_media.id -%}
     {%- assign initial_media_index = 0 -%}
