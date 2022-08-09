@@ -332,20 +332,6 @@
               "apply_overlay": true
             }
           },
-          "1595651417599": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/WhatsAppImage2020-08-20at12.29.30AM_1600x1068_a253e329-4409-46a1-adfa-c593f4d42b3c.jpg",
-              "image_alignment": "center center",
-              "content_position": "middleCenter",
-              "subheading": "",
-              "title": "",
-              "button_text": "Clothing",
-              "button_link": "shopify:\/\/collections\/apparel",
-              "apply_overlay": true
-            }
-          },
           "f7bc9e53-1505-4161-b94c-4dc93f7df46d": {
             "type": "collection",
             "settings": {
@@ -358,20 +344,6 @@
               "button_text": "Kids Decor",
               "button_link": "shopify:\/\/collections\/kids-decor",
               "apply_overlay": false
-            }
-          },
-          "317b8b33-3f7a-4571-95cd-5b3e2c7022cd": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/custom_art_web.png",
-              "image_alignment": "center center",
-              "content_position": "middleCenter",
-              "subheading": "",
-              "title": "",
-              "button_text": "Custom Decor",
-              "button_link": "shopify:\/\/collections\/custom-decor",
-              "apply_overlay": true
             }
           },
           "20d9cffe-9c77-43f6-8816-592e6b5cacac": {
@@ -398,9 +370,7 @@
           "1594534627196",
           "1595651253547",
           "1595651344240",
-          "1595651417599",
           "f7bc9e53-1505-4161-b94c-4dc93f7df46d",
-          "317b8b33-3f7a-4571-95cd-5b3e2c7022cd",
           "20d9cffe-9c77-43f6-8816-592e6b5cacac"
         ],
         "settings": {
