@@ -98,7 +98,7 @@
 
     <link rel="preload" href="https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}">
+    <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
 
     {% render 'social-meta-tags' %}
 
@@ -246,8 +246,6 @@
     </script>
 
     {% render 'microdata-schema' %}
-    <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
-  <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
   <meta name="google-site-verification" content="13tVd_AepEfGJ3tjP9ndb9Oc14aizmDbVcSsKD5y1G4" />
     
@@ -339,6 +337,9 @@
   <script src="{{ 'libs.min.js' | asset_url }}" defer></script>
   <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
   <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+  <link rel="stylesheet" href="{{ 'theme.scss.css' | asset_url }}">
+  <link rel="stylesheet" data-href="{{ 'custom-css-shopify.css' | asset_url }}">
 
 </head>
              
