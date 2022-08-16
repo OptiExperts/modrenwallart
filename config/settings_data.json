@@ -148,13 +148,13 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/MWA-Slide.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/mobile_banner_2.jpg",
-              "apply_overlay": false,
-              "content_position": "middleCenter",
-              "subheading": "",
+              "mobile_image": "shopify:\/\/shop_images\/web-phone_banner_x800_19b81dfa-67cf-44f0-8785-5f970d3450cf.jpg",
+              "apply_overlay": true,
+              "content_position": "bottomRight",
+              "subheading": "Modern Wall Art",
               "title": "",
               "button_1_text": "Shop Now",
-              "button_1_link": "shopify:\/\/products\/prayer-mat",
+              "button_1_link": "shopify:\/\/collections",
               "button_2_text": "",
               "button_2_link": ""
             }
